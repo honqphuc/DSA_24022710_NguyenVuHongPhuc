@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1758869935 source:c:\users\hong phuc\desktop\24022710_nguyenvuhongphuc\sourcecode\week1\linkedlist\main.cpp
+	<iostream>
+	"Linkedlist.h"
+
+1758872774 c:\users\hong phuc\desktop\24022710_nguyenvuhongphuc\sourcecode\week1\linkedlist\linkedlist.h
+	<iostream>
+

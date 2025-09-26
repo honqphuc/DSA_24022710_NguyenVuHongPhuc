@@ -44,6 +44,7 @@ struct LinkedList {
     //O(1)
     void addFirst(int x) {
         Node* newNode = new Node(x);
+        newNode->next = head;
         head = newNode;
     }
 
