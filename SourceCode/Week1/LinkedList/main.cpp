@@ -5,30 +5,30 @@ using namespace std;
 
 int main()
 {
-    LinkedList list;
+    LinkedList llist;
 
     cout << "Test LinkedList" << endl;
-    list.addFirst(10);
-    list.addFirst(20);
-    list.addLast(5);
-    list.print(); // 20 10 5
+    llist.addFirst(10);
+    llist.addFirst(20);
+    llist.addLast(5);
+    llist.print(); // 20 10 5
 
-    list.insertI(2, 15);
-    list.print(); // 20 15 10 5
+    llist.insertI(2, 15);
+    llist.print(); // 20 15 10 5
 
-    list.accessList(3); // 10
+    llist.accessList(3); // 10
 
-    list.deleteFirst();
-    list.print(); // 15 10 5
+    llist.deleteFirst();
+    llist.print(); // 15 10 5
 
-    list.deleteLast();
-    list.print(); // 15 10
+    llist.deleteLast();
+    llist.print(); // 15 10
 
-    list.deleteI(2);
-    list.print(); // 15
+    llist.deleteI(2);
+    llist.print(); // 15
 
     cout << "print reverse: ";
-    list.reversePrint(list.head); // 15
+    llist.reversePrint(llist.head); // 15
     cout << endl;
 
     return 0;

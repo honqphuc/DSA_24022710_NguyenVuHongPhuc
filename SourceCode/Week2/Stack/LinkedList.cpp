@@ -1,6 +1,3 @@
-#ifndef LINKEDLIST_INCLUDED
-#define LINKEDLIST_INCLUDED
-
 #include <iostream>
 
 using namespace std;
@@ -185,6 +182,4 @@ struct LinkedList {
 };
 
 
-
-#endif // LINKEDLIST_INCLUDED
 

@@ -1,7 +1,3 @@
-#ifndef LIST_H_INCLUDED
-#define LIST_H_INCLUDED
-#define MAX 100
-
 #define MAX 100
 #include<iostream>
 
@@ -110,6 +106,3 @@ struct List {
     }
 };
 
-
-
-#endif // LIST_H_INCLUDED
