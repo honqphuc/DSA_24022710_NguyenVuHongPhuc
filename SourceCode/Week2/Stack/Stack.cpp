@@ -19,10 +19,6 @@ struct stackList{
     }
 
     int pop(){
-        if(isEmpty()){
-            cout<<"cannot pop"<<endl;
-            return -1;
-        }
         return list.deleteLast();
     }
 
@@ -55,10 +51,6 @@ struct stackLinkedList{
     }
 
     int pop(){
-        if(isEmpty()){
-            cout<<"cannot pop"<<endl;
-            return -1;
-        }
         return llist.deleteFirst();
     }
 
@@ -79,6 +71,7 @@ int main() {
     //list
     stackList s1;
 
+    cout << "stackList test" << endl;
     s1.push(10);
     s1.push(20);
     s1.push(30);
@@ -94,6 +87,7 @@ int main() {
     //linkedlist
     stackLinkedList s2;
 
+    cout << "stackLinkedList test" << endl;
     s2.push(100);
     s2.push(200);
     s2.push(300);
